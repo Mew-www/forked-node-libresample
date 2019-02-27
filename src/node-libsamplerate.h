@@ -1,4 +1,4 @@
-#include <napi.h>
+#include "../../node-addon-api/napi.h"
 
 class SampleRateStream : public Napi::ObjectWrap<SampleRateStream> {
     public:
